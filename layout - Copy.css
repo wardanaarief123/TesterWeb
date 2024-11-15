@@ -1,0 +1,114 @@
+#wrapper { 
+    margin: auto; 
+    width: 756px; 
+    border: 1px solid Blue; 
+} 
+
+#header {
+    position: relative;
+    height: 180px;  /* Sesuaikan dengan tinggi header yang diinginkan */
+    background-image: url('p3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 0, 0); /* Agar teks terlihat jelas di atas gambar */
+    text-align: center;
+    padding: 20px;
+    font-size: 40;
+    font-family: 'Lucida Caligraphy';
+}  
+
+h1 {
+    margin-bottom: 5px; /* Mengurangi jarak bawah pada h1 */
+}
+
+p {
+    margin-top: 0; /* Menghilangkan jarak atas pada p */
+}
+  
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+  
+#header p {
+    font-size: 18px;
+}
+  
+
+#inner { 
+    float: left; 
+    margin: 5px 0; 
+    border: 1px solid black; 
+} 
+
+#sidebar { 
+    float: left; 
+    margin-right: 20px; 
+    width: 180px; 
+    height: 330px; 
+    border: 1px solid red; 
+    background-color:cornflowerblue;
+} 
+
+#inner2 { 
+    float: left; 
+    width: 550px; 
+    height: 330px; 
+    border: 1px solid green; 
+} 
+
+#top {
+    height: 70px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: antiquewhite;
+    background-size: cover; /* Menutup seluruh area */
+    background-position: center; /* Menempatkan gambar di tengah */
+}
+
+
+
+#content { 
+    float: left; 
+    margin-right: 20px; 
+    width: 322px; 
+    height: 258px; 
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid red; 
+} 
+
+#right { 
+    float: right; 
+    width: 205px; 
+    height: 258px; 
+    border: 1px solid green; 
+}
+
+#right h3 {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(159, 0, 0);
+    margin: 0; /* Menghapus margin atas dan bawah dari h3 */
+}
+      
+#right p {
+    font-size: 12px;
+    color: rgb(0, 0, 182);
+    text-align: justify;
+    margin: 5px; /* Menghapus margin atas dan bawah dari p */
+} 
+
+#footer { 
+    clear: both; 
+    font-size: 11px;
+    height: 50px; 
+    border: 2px solid green;
+    align-items: center;     /* Vertikal di tengah */
+    justify-content: center; /* Horizontal di tengah */ 
+    background-image: url('p.gif');
+}     
